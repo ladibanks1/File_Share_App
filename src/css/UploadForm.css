@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+  label,
+  input,
+  textarea {
+    @apply block w-full p-1 rounded focus:outline-blue-600;
+  }
+  label {
+    @apply mt-2 font-bold text-xl;
+  }
+  input {
+    @apply py-2;
+  }
+}
